@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        int toplam=1,birinciSayi,ikinciSayi;
+
+        Scanner girdi =new Scanner(System.in);
+        System.out.println("üstü alinacak sayiyi giriniz:");
+        birinciSayi=girdi.nextInt();
+        System.out.println("üst olacak sayiyi giriniz:");
+        ikinciSayi=girdi.nextInt();
+
+        for (int i=1; i<=ikinciSayi; i++){
+
+            toplam=toplam*birinciSayi;
+
+        }System.out.println(toplam);
+
+
+
+
+
+    }
+
+}
+
+
+
+
+
